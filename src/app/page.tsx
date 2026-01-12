@@ -58,7 +58,7 @@ export default function Home() {
         <H2>いまなにしてる？</H2>
         <ul className="pretty-list">
           <li>天文学の研究をしています</li>
-          <li>Next.js や OpenAI API などと戯れています</li>
+          <li>（まもなく）ソフトウェア開発の仕事をします</li>
         </ul>
       </Section>
 
@@ -67,7 +67,11 @@ export default function Home() {
         <div className="mx-2">
           <div className="space-y-2">
             <div className="flex flex-col sm:flex-row">
-              <div className="w-40 subtle-text">2024.4 –</div>
+              <div className="w-40 subtle-text">2026.4 –</div>
+              <div>ソフトウェアエンジニア（予定）</div>
+            </div>            
+            <div className="flex flex-col sm:flex-row">
+              <div className="w-40 subtle-text">2024.4 – 2026.3</div>
               <div>東京大学大学院 理学系研究科 天文学専攻</div>
             </div>
             <div className="flex flex-col sm:flex-row">
@@ -96,7 +100,7 @@ export default function Home() {
       <Section id="interests">
         <H2>趣味・関心</H2>
         <ul className="pretty-list">
-          <li>クラシック音楽鑑賞（Mahler, Tchaikovsky, Rachmaninoff...）</li>
+          <li>クラシック音楽鑑賞（Mahler, Brahms, Tchaikovsky, Rachmaninoff...）</li>
           <li>
             <Link
               href="/3d"
@@ -106,7 +110,7 @@ export default function Home() {
               3Dモデリング（Blender）
             </Link>
           </li>
-          <li>プログラミング（最近はLLMに関心）</li>
+          <li>ソフトウェア開発</li>
           <li>散歩</li>
         </ul>
       </Section>

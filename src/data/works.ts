@@ -1,5 +1,21 @@
 export const works = [
   {
+    slug: "christmas2025",
+    src: "/works/20251223_christmas.jpg",
+    title: "クリスマス",
+    date: "2025年冬",
+    description:
+      "楽しいクリスマスディナーの前の洋室です。使用アセット：Botaniq、絵画などに画像生成AIの Nano Banana を使用。",
+  },
+  {
+    slug: "the_way_home",
+    src: "/works/20251013_the_waty_home.jpg",
+    title: "帰り道",
+    date: "2025年秋",
+    description:
+      "私にとって思い出深い、ある帰り道です。使用アセット：Botaniq。",
+  },
+  {
     slug: "tourou",
     src: "/works/20250107_tourou.jpg",
     title: "春日灯籠",
