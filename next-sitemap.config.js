@@ -1,14 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: process.env.SITE_URL || 'https://www.akimasanishida.com',
-  generateRobotsTxt: true, // (optional)
-  exclude: ["/family", "/family/*"],
-  robotsTxtOptions: {
-    policies: [
-      {
-        userAgent: '*',
-        disallow: ['/family', '/family/'],
-      },
-    ],
-  }
+  generateRobotsTxt: true,
 }
