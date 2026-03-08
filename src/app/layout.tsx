@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "西田明正（Akimasa Nishida）",
     description: "西田明正（Akimasa NISHIDA）のウェブサイト",
     images: ["/ogp.jpg"],
-    creator: "@skrbcr",
+    creator: "@akimasanishida",
   },
 };
 
