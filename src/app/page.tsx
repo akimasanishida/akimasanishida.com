@@ -53,7 +53,7 @@ export default function Home() {
             description="業務以外で開発したソフトウェア"
             href="/software"
           />
-          <Card title="経歴" description="経歴" href="/career" />
+          <Card title="経歴" description="これまでにやってきたこと・やっていること" href="/career" />
           <Card
             title="3Dイラスト"
             description="3Dソフトウェアで作成した作品のギャラリー"
