@@ -18,19 +18,19 @@ export default function Career() {
         <H2>略歴</H2>
         <div className="space-y-2">
           <div className="flex flex-col sm:flex-row">
-            <div className="w-40 subtle-text">2026.4 – 現在</div>
+            <div className="w-40 subtle-text">2026.4 &ndash; 現在</div>
             <div>ソフトウェアエンジニア</div>
           </div>
           <div className="flex flex-col sm:flex-row">
-            <div className="w-40 subtle-text">2024.4 – 2026.3</div>
+            <div className="w-40 subtle-text">2024.4 &ndash; 2026.3</div>
             <div>東京大学大学院 理学系研究科 天文学専攻</div>
           </div>
           <div className="flex flex-col sm:flex-row">
-            <div className="w-40 subtle-text">2022.4 – 2024.3</div>
+            <div className="w-40 subtle-text">2022.4 &ndash; 2024.3</div>
             <div>東京大学 理学部 物理学科</div>
           </div>
           <div className="flex flex-col sm:flex-row">
-            <div className="w-40 subtle-text">2020.4 – 2022.3</div>
+            <div className="w-40 subtle-text">2020.4 &ndash; 2022.3</div>
             <div>東京大学 理科一類</div>
           </div>
           <div className="flex flex-col sm:flex-row">
