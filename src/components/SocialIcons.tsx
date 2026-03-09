@@ -2,6 +2,14 @@
 import Image from "next/image";
 import { EnvelopeSimple, Pen } from "@phosphor-icons/react";
 
+const bgClassMap: Record<string, string> = {
+  foreground: "bg-foreground",
+  white: "bg-white",
+  black: "bg-black",
+};
+
+type BgColor = keyof typeof bgClassMap;
+
 function IndividualIcon({
   href,
   bgcolor,
@@ -9,15 +17,17 @@ function IndividualIcon({
   text,
 }: {
   href: string;
-  bgcolor: string;
+  bgcolor: BgColor;
   childIcon: React.ReactNode;
   text: string;
 }) {
+  const bgClass = bgClassMap[bgcolor];
+
   return (
     <div className="flex flex-col items-center justify-center">
       <a href={href} target="_blank" rel="noopener noreferrer">
         <div
-          className={`flex items-center justify-center w-14 h-14 bg-${bgcolor} rounded-full transition duration-200 hover:brightness-70`}
+          className={`flex items-center justify-center w-14 h-14 ${bgClass} rounded-full transition duration-200 hover:brightness-70`}
         >
           {childIcon}
         </div>
@@ -53,8 +63,8 @@ export default function SocialIcons() {
           <Image
             src="github_icon.svg"
             alt="GitHubへのリンク"
-            width={34}
-            height={34}
+            width={40}
+            height={40}
           />
         }
         text="akimasanishida"
