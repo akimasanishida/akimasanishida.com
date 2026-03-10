@@ -1,11 +1,16 @@
-import { Metadata } from "next";
-import Client3DPage from "./Client3DPage";
+import Link from "next/link";
+import { Main, Header, Section } from "@/components";
+import { works } from "@/data/works";
+import { WorkList } from "./page-client";
 
-export const metadata: Metadata = {
-  title: "3D",
-  description: "Blender で作成したものたち",
-};
+export default function Page() {
+  return (
+    <Main>
+      <Header title="3D" subtitle="Blender で作成したものたち" />
 
-export default function ThreeD() {
-  return <Client3DPage />;
+      <Section>
+        <WorkList works={works} />
+      </Section>
+    </Main>
+  );
 }
