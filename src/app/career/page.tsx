@@ -9,7 +9,7 @@ import {
 
 export const metadata: Metadata = {
   title: "経歴",
-  description: "これまでにやってきたこと・やっていること",
+  description: "これまでにやってきたこと・やっていることを述べます。",
 };
 
 export default function Career() {
