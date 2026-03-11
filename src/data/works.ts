@@ -1,4 +1,6 @@
-export const works = [
+import { Work } from "@/types/work"
+
+export const works: Work[] = [
   {
     slug: "christmas2025",
     src: "/works/20251223_christmas.jpg",

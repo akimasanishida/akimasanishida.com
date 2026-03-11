@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Main, Header, Section, H2 } from "@/components";
+import { Main, Header, Section } from "@/components";
 import {
   BiographySection,
   GradSection,

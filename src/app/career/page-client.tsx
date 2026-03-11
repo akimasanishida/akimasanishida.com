@@ -2,7 +2,7 @@
 
 import { motion } from "motion/react";
 import { propsFadeInUp } from "@/lib/motionProps";
-import { Main, Header, Section, H2 } from "@/components";
+import { H2 } from "@/components";
 
 export function BiographySection() {
   return (

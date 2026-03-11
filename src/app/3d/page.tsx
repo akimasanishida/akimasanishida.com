@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Main, Header, Section } from "@/components";
 import { works } from "@/data/works";
 import { WorkList } from "./page-client";
