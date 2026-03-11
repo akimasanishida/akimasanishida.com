@@ -7,7 +7,12 @@ import { Work } from "@/types/work";
 
 export function ImageDiv({work}: { work: Work }) {
   return (
-    <motion.div className="lg:w-1/2 lg:pr-4 mb-8 lg:mb-0" {...propsFadeIn}>
+    <motion.div
+      className="lg:w-1/2 lg:pr-4 mb-8 lg:mb-0"
+      {...propsFadeIn}
+      initial={{ ...propsFadeIn.initial, scale: 0.98 }}
+      whileInView={{ ...propsFadeIn.whileInView, scale: 1 }}
+    >
       <Image
         src={work.src}
         alt={work.title}
