@@ -2,14 +2,9 @@
 import Image from "next/image";
 import { motion } from "motion/react";
 import Link from "next/link";
-import FadeInComponents from "@/components/FadeInComponents";
+import { propsFadeInUp, propsFadeIn } from "@/lib/motionProps";
 import useIsDesktop from "@/lib/isDesktop";
-
-interface WorkCardProps {
-  slug: string;
-  src: string;
-  title: string;
-}
+import { Work } from "@/types/work";
 
 const cardVariants = {
   rest: { scale: 1 },
@@ -35,7 +30,7 @@ export function WorkCard({
   img,
   isDesktop,
 }: {
-  img: WorkCardProps;
+  img: Work;
   isDesktop: boolean;
 }) {
   const WrapImage = () => (
@@ -90,18 +85,18 @@ export function WorkCard({
   );
 }
 
-export function WorkList({ works }: { works: WorkCardProps[] }) {
+export function WorkList({ works }: { works: Work[] }) {
   const isDesktop = useIsDesktop();
   return (
     <>
-      {isDesktop === false && <div className="mb-4"><p>※ 画像をタップすると詳細をご覧になれます。</p></div>}
+      {isDesktop === false && <motion.div className="mb-4" {...propsFadeIn}><p>※ 画像をタップすると詳細をご覧になれます。</p></motion.div>}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-4">
         {works.map((img, i) => (
-          <FadeInComponents key={i}>
+          <motion.div key={i} {...propsFadeInUp}>
             <Link href={`/3d/${img.slug}`}>
               <WorkCard img={img} isDesktop={isDesktop} />
             </Link>
-          </FadeInComponents>
+          </motion.div>
         ))}
       </div>
     </>
