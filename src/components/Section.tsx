@@ -1,8 +1,6 @@
-import TagProps from "./TagProps";
-
-export default function Section({ id, className, children }: TagProps) {
+export default function Section({ id, className, children }: { id?: string, className?: string, children: React.ReactNode }) {
   return (
-    <section id={id} className={`mb-8 ${className}`}>
+    <section id={id} className={`mb-8${className ? ` ${className}` : ''}`}>
       {children}
     </section>
   );
