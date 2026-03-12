@@ -3,7 +3,7 @@ import Link from "next/link";
 const hoverTextClass =
   "transition-colors duration-300 group-hover:text-background";
 
-export default function Card({
+export default function PageCard({
   title,
   description,
   href,
@@ -13,7 +13,7 @@ export default function Card({
   href: string;
 }) {
   return (
-    <div className="relative group overflow-hidden rounded-sm border text-center">
+    <div className="relative group overflow-hidden rounded-sm border text-center bg-(--background-darker)">
       <Link
         href={href}
         className="relative z-10 flex min-h-20 md:min-h-40 flex-col items-center justify-center"
