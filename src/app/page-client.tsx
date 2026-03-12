@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { H2 } from "@/components";
-import Card from "@/components/Card";
+import PageCard from "@/components/PageCard";
 import SocialIcons from "@/components/SocialIcons";
 import { propsFadeInUp } from "@/lib/motionProps";
 import { motion } from "motion/react";
@@ -54,17 +54,17 @@ export function PagesSection() {
     <motion.div {...propsFadeInUp}>
       <H2>ページ</H2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-4">
-        <Card
+        <PageCard
           title="ソフトウェア開発"
           description="業務以外で開発したソフトウェア"
           href="/software"
         />
-        <Card
+        <PageCard
           title="経歴"
           description="これまでにやってきたこと・やっていること"
           href="/career"
         />
-        <Card
+        <PageCard
           title="3Dイラスト"
           description="3Dソフトウェアで作成した作品のギャラリー"
           href="/3d"
