@@ -3,17 +3,19 @@
 import Image from "next/image";
 import { motion } from "motion/react";
 import { propsFadeIn, propsFadeInToLeft } from "@/lib/motionProps";
-import { software } from '@/data/software';
-import { LinkProps } from '@/types/link';
-import { SoftProps } from '@/types/software';
+import { software } from "@/data/software";
+import { LinkProps } from "@/types/link";
+import { SoftProps } from "@/types/software";
 
 const figureBaseDir = "/software/";
 
 export function Content() {
   return (
-    software.map((soft, i) => (
-      <Card key={i} {...soft} />
-    ))
+    <div className="flex flex-col gap-6">
+      {software.map((soft, i) => (
+        <Card key={i} {...soft} />
+      ))}
+    </div>
   );
 }
 
