@@ -26,4 +26,28 @@ export const software: SoftProps[] = [
       },
     ],
   },
+  {
+    title: "ホームページ",
+    image: {
+      src: "akimasanishida.com.jpg",
+      alt: "ホームページのカバー画像",
+    },
+    description: (
+      <>
+        <p>
+          このウェブサイトです。Next.js を用いて開発しています。
+        </p>
+      </>
+    ),
+    links: [
+      {
+        href: "https://github.com/akimasanishida/akimasanishida.com",
+        title: "GitHub",
+      },
+      {
+        href: "https://akimasanishida.com",
+        title: "トップページ",
+      }
+    ],
+  },
 ]
