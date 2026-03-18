@@ -17,6 +17,7 @@ export function ProfileSection() {
           src="/profile.jpg"
           width={768}
           height={768}
+          priority
           alt="プロフィールイラスト"
           className="w-full md:w-1/3 flex-shrink-0 rounded-lg"
         />
