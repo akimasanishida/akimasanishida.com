@@ -10,6 +10,7 @@ export default function Header({ title, subtitle }: HeaderProps) {
         alt="Hero Background"
         fill
         priority
+        fetchPriority="high"
         sizes="100vw"
         className="object-cover object-center"
       />
