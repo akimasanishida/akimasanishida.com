@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Kaisei_Opti } from "next/font/google";
 import "./globals.css";
-import { Nav, Footer } from "@/components";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 const kaiseiOpti = Kaisei_Opti({
   subsets: ["latin"],
