@@ -11,7 +11,7 @@ export default function Header({ title, subtitle }: HeaderProps) {
         fill
         priority
         fetchPriority="high"
-        sizes="100vw"
+        quality={60}
         className="object-cover object-center"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30 z-10" />
