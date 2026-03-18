@@ -1,5 +1,7 @@
 import { Metadata } from "next";
-import { Main, Header, Section } from "@/components";
+import Main from "@/components/Main";
+import Header from "@/components/Header";
+import Section from "@/components/Section";
 import { works } from "@/data/works";
 import { WorkList } from "./page-client";
 
