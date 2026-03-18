@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { H2 } from "@/components/Hx";
+import { H2 } from "@/components";
 import PageCard from "@/components/PageCard";
 import SocialIcons from "@/components/SocialIcons";
 import { propsFadeInUp } from "@/lib/motionProps";

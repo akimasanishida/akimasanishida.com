@@ -1,8 +1,6 @@
 import { notFound } from "next/navigation";
 import { works } from "@/data/works";
-import Main from "@/components/Main";
-import Header from "@/components/Header";
-import Section from "@/components/Section";
+import { Main, Header, Section } from "@/components";
 import { DescriptionDiv, ImageDiv } from "./page-client";
 
 const generateMetadata = async ({

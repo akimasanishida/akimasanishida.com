@@ -1,6 +1,4 @@
-import Main from "@/components/Main";
-import Header from "@/components/Header";
-import Section from "@/components/Section";
+import { Main, Header, Section } from "@/components";
 import { AboutSection, ContactSection, PagesSection, ProfileSection } from "./page-client";
 
 export default function Home() {
