@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-import { EnvelopeSimple, Pen } from "@phosphor-icons/react";
+import { EnvelopeSimpleIcon } from "@phosphor-icons/react/dist/ssr";
+import { PenIcon } from "@phosphor-icons/react/dist/ssr";
 
 const bgClassMap: Record<string, string> = {
   foreground: "bg-foreground",
@@ -73,7 +74,7 @@ export default function SocialIcons() {
         href="https://blog.akimasanishida.com"
         bgcolor="foreground"
         childIcon={
-          <Pen className="w-8 h-8 text-(--background-darker)" />
+          <PenIcon className="w-8 h-8 text-(--background-darker)" />
         }
         text="ブログ"
       />
@@ -81,7 +82,7 @@ export default function SocialIcons() {
         href="mailto:akimasa@akimasanishida.com"
         bgcolor="foreground"
         childIcon={
-          <EnvelopeSimple className="w-8 h-8 text-(--background-darker)" />
+          <EnvelopeSimpleIcon className="w-8 h-8 text-(--background-darker)" />
         }
         text="メール"
       />
