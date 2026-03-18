@@ -5,7 +5,7 @@ import { Nav, Footer } from "@/components";
 
 const kaiseiOpti = Kaisei_Opti({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "700"],
   display: "swap",
   variable: "--font-kaisei-opti",
 });
