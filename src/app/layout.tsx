@@ -8,6 +8,7 @@ const kaiseiOpti = Kaisei_Opti({
   subsets: ["latin"],
   weight: ["400", "700"],
   display: "swap",
+  preload: false,
   variable: "--font-kaisei-opti",
 });
 
