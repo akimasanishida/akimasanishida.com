@@ -11,7 +11,7 @@ export function BiographySection() {
       <div className="space-y-2">
         <div className="flex flex-col sm:flex-row">
           <div className="w-40 subtle-text">2026.4 &ndash; 現在</div>
-          <div>ソフトウェアエンジニア</div>
+          <div>ソフトウェア・エンジニア（アルゴリズム・エンジニア/数理最適化）</div>
         </div>
         <div className="flex flex-col sm:flex-row">
           <div className="w-40 subtle-text">2024.4 &ndash; 2026.3</div>
