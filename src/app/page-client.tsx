@@ -25,8 +25,8 @@ export function ProfileSection() {
         <div>
           <ul className="pretty-list">
             <li>名前：西田 明正（Akimasa NISHIDA）</li>
-            <li>仕事：ソフトウェア・エンジニア</li>
-            <li>大学：天文学、物理学</li>
+            <li>仕事：ソフトウェア・エンジニア（アルゴリズム・エンジニア/数理最適化）</li>
+            <li>大学：天文学にて修士（理学）、物理学にて学士（理学）を取得</li>
             <li>
               趣味：クラシック音楽鑑賞（Mahler, Brahms, Tchaikovsky,{" "}
               Rachmaninoff...）、3Dモデリング、散歩
