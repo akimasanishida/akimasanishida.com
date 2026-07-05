@@ -5,5 +5,7 @@ overrides:
   flatted@<3.4.2: ^3.4.2
 
 allowBuilds:
+  esbuild: true
   sharp: true
   unrs-resolver: true
+  workerd: true
