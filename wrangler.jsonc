@@ -2,6 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "akimasanishida-com",
   "compatibility_date": "2025-07-05",
+  "preview_urls": true,
   "routes": [
     { "pattern": "www.akimasanishida.com", "custom_domain": true }
   ],
