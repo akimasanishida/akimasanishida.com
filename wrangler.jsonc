@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "akimasanishida-com",
+  "compatibility_date": "2025-07-05",
+  "routes": [
+    { "pattern": "www.akimasanishida.com", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
