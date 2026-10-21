@@ -16,23 +16,23 @@
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
     "motion": "^12.35.2",
-    "next": "16.2.9",
+    "next": "16.3.6",
     "next-sitemap": "^4.2.3",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.1",
+    "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^20.19.37",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "autoprefixer": "^10.4.27",
-    "eslint": "^9.39.4",
-    "eslint-config-next": "16.2.9",
-    "postcss": "^8.5.15",
-    "tailwindcss": "^4.3.1",
+    "autoprefixer": "^10.6.1",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.3.6",
+    "postcss": "^8.5.23",
+    "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3",
-    "wrangler": "^4.107.0"
+    "wrangler": "^4.151.3"
   }
 }
