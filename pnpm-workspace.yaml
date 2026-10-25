@@ -11,3 +11,6 @@ allowBuilds:
   sharp: true
   unrs-resolver: true
   workerd: true
+
+# Supply-chain hardening: only install versions published at least 3 days ago (in minutes)
+minimumReleaseAge: 4320
